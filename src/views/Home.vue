@@ -1,10 +1,12 @@
 <template>
   <Header />
   <div class="home">
+    <p class="about">
+      Graduate student in Robotics at The Robotics Institute at Carnegie Mellon University.
+    </p>
     <div class="nav">
-      <router-link to="/about">about</router-link>
       <router-link to="/projects">projects</router-link>
-      <a href="https://github.com/nevinvalsaraj" target="_blank" rel="noreferrer">github</a>
+      <a href="https://github.com/nevalsar" target="_blank" rel="noreferrer">github</a>
     </div>
   </div>
 </template>
@@ -22,6 +24,9 @@ export default {
 </script>
 
 <style scoped>
+.about {
+  font-size: x-large
+}
 .nav {
   display: flex;
   flex-direction: column;
@@ -32,5 +37,6 @@ export default {
   font-weight: 600;
   margin: 1rem 1rem;
   color: #333;
+  text-underline-offset: 3px;
 }
 </style>
