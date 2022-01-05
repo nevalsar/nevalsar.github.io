@@ -8,6 +8,7 @@
       <router-link to="/projects">projects</router-link>
       <a href="https://github.com/nevalsar" target="_blank" rel="noreferrer">github</a>
       <a href="https://linkedin.com/in/nevinvalsaraj" target="_blank" rel="noreferrer">linkedin</a>
+      <a href="https://medium.com/@nevinvalsaraj" target="_blank" rel="noreferrer">blog</a>
     </div>
   </div>
 </template>
