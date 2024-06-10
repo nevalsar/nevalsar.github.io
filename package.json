@@ -38,8 +38,7 @@
       "babelOptions": {
         "rootMode": "upward"
       }
-    },
-    "rules": {}
+    }
   },
   "browserslist": [
     "> 1%",
