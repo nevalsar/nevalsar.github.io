@@ -3,30 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
-    "core-js": "^3.8.2",
-    "vue": "^3.0.5",
-    "vue-router": "^4.0.2"
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.24.7",
-    "@vue/cli-plugin-babel": "^5.0.8",
-    "@vue/cli-plugin-eslint": "^5.0.8",
-    "@vue/cli-plugin-router": "^5.0.8",
-    "@vue/cli-service": "^5.0.8",
-    "@vue/compiler-sfc": "^3.0.5",
     "eslint": "^9.4.0",
-    "eslint-plugin-vue": "^9.26.0",
-    "gh-pages": "^6.1.1"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "eslint-plugin-vue": "^9.23.0",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.2.8"
+  }
 }
